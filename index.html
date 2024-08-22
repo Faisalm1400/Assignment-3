@@ -34,6 +34,11 @@
 
     <!-- styles section -->
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         .manrope-normal {
             font-family: "Manrope", sans-serif;
         }
@@ -56,8 +61,8 @@
                     </a>
                 </div>
                 <!-- Nav menu -->
-                <div class="navbar-end">
-                    <div class="dropdown">
+                <div class="flex flex-1 justify-end px-2">
+                    <div class="dropdown  dropdown-end">
                         <button class="btn btn-square btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 class="inline-block h-8 w-8 stroke-current">
@@ -74,15 +79,16 @@
                             <li><a>Contact Us</a></li>
                             <!-- button section -->
                             <a class="btn bg-btn-primary rounded-3xl">
-                                <span class="font-extrabold text-lg">Book Consult</span>
+                                <span class="font-extrabold text-base">Book Consult</span>
                                 <span class="flex items-center justify-center bg-neutral-800 rounded-full"
-                                    style="width: 30px; height: 30px;">
+                                    style="width: 20px; height: 20px;">
                                     <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
                                 </span>
                             </a>
                         </ul>
                     </div>
                 </div>
+                <!-- Nav center items -->
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a class="font-bold">Home</a></li>
@@ -92,6 +98,7 @@
                         <li><a class="text-gray-500">Contact Us</a></li>
                     </ul>
                 </div>
+                <!-- Nav end items -->
                 <div class="navbar-end max-sm:hidden">
                     <div class="flex-none">
                         <!-- searchbar section -->
@@ -135,10 +142,85 @@
                         </a>
                     </div>
                 </div>
+            </div>
         </nav>
+
+        <!-- Banner section -->
+        <section>
+            <div class="hero  min-h-screen">
+                <div class="hero-content flex-col justify-center">
+                    <img src="./assets/banner.png" class="max-w-sm" />
+                    <div class="text-center space-y-6">
+                        <h1 class="text-5xl font-bold text-black">A barn house of this design has a <br> striking
+                            appearance</h1>
+                        <p class="py-6 text-gray-600">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring weathered wood, sleek metal <br> accents, and large windows that flood the space
+                            with
+                            natural light.
+                        </p>
+                        <button
+                            class="btn bg-btn-primary rounded-3xl bg-opacity-50 bg-gradient-to-r from-rgba[(171, 239, 95, 0.5)] ...">
+                            <span class="font-extrabold text-lg">View Details</span>
+                            <span class="flex items-center justify-center bg-btn-primary rounded-full"
+                                style="width: 30px; height: 30px;">
+                                <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
+        <!-- Design section -->
+        <section>
+            <div class="hero bg-base-200 min-h-screen relative">
+                <div class="hero-content flex-col-reverse mt-10 max-sm:mt-20 lg:flex-row-reverse">
 
+                    <!-- image -->
+                    <img src="./assets/Rectangle.png" />
+
+                    <!-- text -->
+                    <div class="max-sm:text-start">
+                        <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and
+                            modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                        <button class="absolute btn rounded-3xl bg-white top-6 left-40 lg:top-20"><i
+                                class="fa-solid fa-arrow-right"></i>About Us</button>
+                        <img src="./assets/Vector.png" alt="" class="absolute top-5 left-24 rotate-12 max-sm:hidden">
+
+                        <!-- cards -->
+                        <div class="space-y-5">
+                            <!-- card 1 -->
+                            <div class="card card-side bg-base-100 pl-4">
+                                <figure>
+                                    <img src="./assets/commercial.png"
+                                        alt="commercial" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">Commercial</h2>
+                                    <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <!-- card 2 -->
+                            <div class="card card-side bg-base-100 pl-4">
+                                <figure>
+                                    <img src="./assets/residential.png"
+                                        alt="commercial" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">Rental</h2>
+                                    <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
