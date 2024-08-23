@@ -172,10 +172,10 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="bg-base-200">
         <!-- Design section -->
         <section>
-            <div class="hero bg-base-200 min-h-screen relative">
+            <div class="hero min-h-screen relative">
                 <div class="hero-content flex-col-reverse mt-10 max-sm:mt-20 lg:flex-row-reverse">
 
                     <!-- image -->
@@ -183,13 +183,15 @@
 
                     <!-- text -->
                     <div class="max-sm:text-start">
-                        <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
-                        <p class="py-6">
-                            The barn house captivates with its blend of rustic charm and
-                            modern sophistication, featuring weathered wood, sleek metal accents.
-                        </p>
-                        <button class="absolute btn rounded-3xl bg-white top-6 left-40 lg:top-20"><i
-                                class="fa-solid fa-arrow-right"></i>About Us</button>
+                        <div class="max-sm:text-center">
+                            <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+                            <p class="py-6">
+                                The barn house captivates with its blend of rustic charm and
+                                modern sophistication, featuring weathered wood, sleek metal accents.
+                            </p>
+                            <button class="absolute btn rounded-3xl bg-white top-6 left-40 lg:top-20"><i
+                                    class="fa-solid fa-arrow-right"></i>About Us</button>
+                        </div>
                         <img src="./assets/Vector.png" alt="" class="absolute top-5 left-24 rotate-12 max-sm:hidden">
 
                         <!-- cards -->
@@ -197,8 +199,7 @@
                             <!-- card 1 -->
                             <div class="card card-side bg-base-100 pl-4">
                                 <figure>
-                                    <img src="./assets/commercial.png"
-                                        alt="commercial" />
+                                    <img src="./assets/commercial.png" alt="commercial" />
                                 </figure>
                                 <div class="card-body">
                                     <h2 class="card-title">Commercial</h2>
@@ -208,8 +209,7 @@
                             <!-- card 2 -->
                             <div class="card card-side bg-base-100 pl-4">
                                 <figure>
-                                    <img src="./assets/residential.png"
-                                        alt="commercial" />
+                                    <img src="./assets/residential.png" alt="commercial" />
                                 </figure>
                                 <div class="card-body">
                                     <h2 class="card-title">Rental</h2>
@@ -221,9 +221,157 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <!-- Our Works section -->
+        <section>
+            <!-- texts -->
+            <div class="hero min-h-screen">
+                <div class="hero-content text-center flex-col">
+                    <div>
+                        <button class="btn rounded-3xl bg-white mb-6"><i class="fa-solid fa-arrow-right"></i>How we
+                            works</button>
+                        <h1 class="text-5xl font-bold">Our Works Process</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+                            featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                    <!-- cards container -->
+                    <div class="gap-4 max-sm:space-y-4 lg:flex">
+                        <!-- card 1 -->
+                        <div>
+                            <div class="card card-compact bg-base-100 w-auto text-start items-start p-2 bg-[#E7C1D3]">
+                                <figure>
+                                    <img src="./assets/concept.png" alt="Concept" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">Concept</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div>
+                            <div class="card card-compact bg-base-100 w-auto text-start items-start p-2 bg-[#EFDA6E]">
+                                <figure>
+                                    <img src="./assets/flow-chart.png" alt="Concept" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">Design Process</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div>
+                            <div class="card card-compact bg-base-100 w-auto text-start items-start p-2 bg-[#A4DAC3]">
+                                <figure>
+                                    <img src="./assets/vision.png" alt="Concept" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">Supervision</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div>
+                            <div class="card card-compact bg-base-100 w-auto text-start items-start p-2 bg-[#77AAEA]">
+                                <figure>
+                                    <img src="./assets/budget-planning.png" alt="Concept" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">Budget Planning</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discuss section -->
+        <section>
+            <div>
+                <div class="hero" style="background-image: url(./assets/bg.jpg);">
+                    <div class="hero-content text-neutral-content text-center flex-col lg:py-10">
+                        <div>
+                            <!-- text -->
+                            <button class="btn rounded-3xl bg-btn-primary opacity-40 mb-6"><i
+                                    class="fa-solid fa-arrow-right"></i>Let's Connect</button>
+                            <h1 class="mb-5 text-5xl font-bold text-black">Let’s Discuss Next Project</h1>
+                            <p class="mb-5 text-black">
+                                The barn house captivates with its blend of rustic charm and modern sophistication <br>
+                                featuring weathered wood, sleek metal accents.
+                            </p>
+                        </div>
+                        <!-- input -->
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                            <div>
+                                <input type="text" name="" id="" placeholder="First Name*" class="rounded-3xl p-4 w-96">
+                            </div>
+                            <div>
+                                <input type="text" name="" id="" placeholder="Last Name*" class="rounded-3xl p-4 w-96">
+                            </div>
+                            <div>
+                                <input type="text" name="" id="" placeholder="Phone Number*"
+                                    class="rounded-3xl p-4 w-96">
+                            </div>
+                            <div>
+                                <input type="text" name="" id="" placeholder="Email Address*"
+                                    class="rounded-3xl p-4 w-96">
+                            </div>
+                            <textarea name="" id="" placeholder="Write your message here"
+                                class="rounded-xl p-4 col-span-2 h-44"></textarea>
+                            <button class="btn bg-btn-primary rounded-3xl col-span-2 mt-2 lg:mt-5 border-none">
+                                <span class="font-extrabold text-base">Book Consult</span>
+                                <span class="flex items-center justify-center bg-neutral-800 rounded-full"
+                                    style="width: 20px; height: 20px;">
+                                    <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer footer-center bg-neutral-800 text-white p-10">
+        <aside>
+            <path>
+                <div class="">
+                    <a class="btn btn-ghost text-xl rounded-full flex items-center justify-center p-3">
+                        <span class="flex items-center justify-center bg-btn-primary rounded-full"
+                            style="width: 30px; height: 30px;">
+                            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </span>
+                        <span class="text-3xl font-bold">RentBD</span>
+                    </a>
+                </div>
+            </path>
+            <p class="font-bold text-[#737373]">
+                The barn house captivates with its blend of rustic charm and modern sophistication,
+                <br>
+                featuring weathered wood, sleek metal accents.
+            </p>
+        </aside>
+        <nav>
+            <div class="grid lg:grid-flow-col gap-6 lg:gap-24 mb-6">
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Portfolio</a>
+                <a class="link link-hover">Blogs</a>
+                <a class="link link-hover">Contact Us</a>
+            </div>
+            <a class="btn bg-btn-primary rounded-3xl border-none">
+                <span class="font-extrabold text-base">Book Consult</span>
+                <span class="flex items-center justify-center bg-neutral-800 rounded-full"
+                    style="width: 20px; height: 20px;">
+                    <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                </span>
+            </a>
+        </nav>
     </footer>
 </body>
 
